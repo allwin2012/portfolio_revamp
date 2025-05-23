@@ -1,6 +1,4 @@
-import React from 'react';
 import { motion } from 'framer-motion';
-import { User } from 'lucide-react';
 
 const AboutSection = () => {
   return (
