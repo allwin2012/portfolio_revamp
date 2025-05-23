@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import { useTheme } from '../context/ThemeContext';
 import { Menu, Moon, Sun, X } from 'lucide-react';
