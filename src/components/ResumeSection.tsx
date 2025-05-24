@@ -66,7 +66,7 @@ const ResumeSection = () => {
             </div> */}
             <div className="aspect-[8.5/11] bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden">
               <iframe
-                src="public\resume_repo\React_resume (7).pdf"
+                src="public/resume_repo/React_resume (7).pdf"
                 title="Resume Preview"
                 className="w-full h-full"
               />
