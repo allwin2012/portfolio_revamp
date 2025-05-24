@@ -4,7 +4,7 @@ import { Award, Download, School } from 'lucide-react';
 
 const ResumeSection = () => {
   const [loading, setLoading] = useState(false);
-  
+
   const handleDownload = () => {
     setLoading(true);
     // Simulating download delay
@@ -18,7 +18,7 @@ const ResumeSection = () => {
   return (
     <section id="resume" className="min-h-screen flex items-center justify-center py-16">
       <div className="container mx-auto px-4">
-        <motion.h2 
+        <motion.h2
           className="text-3xl font-bold text-center text-black dark:text-white mb-10"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -27,10 +27,10 @@ const ResumeSection = () => {
         >
           Resume
         </motion.h2>
-        
+
         <div className="flex flex-col md:flex-row gap-10 max-w-6xl mx-auto">
           {/* Resume Preview */}
-          <motion.div 
+          <motion.div
             className="w-full md:w-3/5 bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6"
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -56,7 +56,7 @@ const ResumeSection = () => {
                 )}
               </motion.button>
             </div>
-            
+
             {/* Resume PDF Viewer (placeholder) */}
             {/* <div className="aspect-[8.5/11] bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden flex items-center justify-center">
               <FileText size={80} className="text-gray-400 dark:text-gray-500" />
@@ -65,17 +65,17 @@ const ResumeSection = () => {
               </p>
             </div> */}
             <div className="aspect-[8.5/11] bg-gray-100 dark:bg-gray-700 rounded-lg overflow-hidden">
-  <iframe
-    src="src\resume_repo\React_resume (7).pdf"
-    title="Resume Preview"
-    className="w-full h-full"
-  />
-</div>
+              <iframe
+                src="public\resume_repo\React_resume (7).pdf"
+                title="Resume Preview"
+                className="w-full h-full"
+              />
+            </div>
 
           </motion.div>
-          
+
           {/* Education & Certifications */}
-          <motion.div 
+          <motion.div
             className="w-full md:w-2/5"
             initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -92,7 +92,7 @@ const ResumeSection = () => {
                   Education
                 </h3>
               </div>
-              
+
               <div className="space-y-4">
                 <div className="border-l-2 border-blue-500 pl-4 py-1">
                   <h4 className="text-lg font-medium text-black dark:text-white">Master's in Computer Science</h4>
@@ -106,7 +106,7 @@ const ResumeSection = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Certifications */}
             <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
               <div className="flex items-center mb-4">
@@ -117,7 +117,7 @@ const ResumeSection = () => {
                   Certifications
                 </h3>
               </div>
-              
+
               <div className="space-y-4">
                 <div className="border-l-2 border-purple-500 pl-4 py-1">
                   <h4 className="text-lg font-medium text-black dark:text-white">

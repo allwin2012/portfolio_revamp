@@ -27,7 +27,7 @@ const AboutSection = () => {
               {/* <User size={80} className="text-white" /> */}
               <img
               style={{ borderRadius: '130px' }}
-                src="src\img\Serious Gaze in Denim and Headphones.png"
+                src="public\img\Serious Gaze in Denim and Headphones.png"
                 alt="Allwin A"
                 className="object-cover w-full h-full"
               />
