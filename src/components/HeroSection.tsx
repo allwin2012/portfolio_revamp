@@ -62,7 +62,7 @@ const HeroSection = () => {
             transition={{ duration: 0.6, delay: 0.6 }}
           >
             <motion.a
-              href="/resume.pdf"
+              href="React_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-6 py-3 bg-green-700 dark:bg-green-500 text-white rounded-lg font-medium transition-all duration-300 hover:bg-green-800 dark:hover:bg-green-600 hover:scale-105 shadow-md"

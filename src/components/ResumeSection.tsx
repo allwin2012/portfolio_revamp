@@ -11,7 +11,7 @@ const ResumeSection = () => {
     setTimeout(() => {
       setLoading(false);
       // Replace with your actual resume PDF URL
-      window.open('/resume.pdf', '_blank');
+      window.open('React_resume.pdf', '_blank');
     }, 1000);
   };
 
