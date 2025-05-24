@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Award, Download, FileText, School } from 'lucide-react';
+import { Award, Download, School } from 'lucide-react';
 
 const ResumeSection = () => {
   const [loading, setLoading] = useState(false);

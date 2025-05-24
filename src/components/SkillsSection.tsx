@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { BrainCircuit, CloudCog, Code, Cpu, Database, FileCog, Globe, Layers, Server } from 'lucide-react';
+import { BrainCircuit, Code, Cpu, Database, Globe, Server } from 'lucide-react';
 
 interface Skill {
   name: string;
