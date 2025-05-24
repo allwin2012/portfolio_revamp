@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { ThemeProvider } from './context/ThemeContext';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';

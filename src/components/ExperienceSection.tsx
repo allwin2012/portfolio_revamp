@@ -12,7 +12,7 @@ interface Experience {
 const experiences: Experience[] = [
   {
     title: "Software Developer",
-    company: "Ignitho Technologies",
+    company: "Ignitho Technologies Inc",
     location: "Chennai, India",
     period: "Aug 2023 - Present",
     description: [
@@ -23,7 +23,7 @@ const experiences: Experience[] = [
     ]
   },
   {
-    title: "Assistant Software Developer",
+    title: "Software Engineering Intern",
     company: "Resemble System Inc",
     location: "Bangalore, India",
     period: "Jan 2022 - May 2023",
@@ -35,7 +35,7 @@ const experiences: Experience[] = [
     ]
   },
   {
-    title: "Software Engineering Intern",
+    title: "Intern",
     company: "Shiash",
     location: "Chennai, India",
     period: "May 2021 - Dec 2021",

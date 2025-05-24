@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, MapPin, Phone, Send } from 'lucide-react';
 import emailjs from '@emailjs/browser';
