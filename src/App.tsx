@@ -18,6 +18,10 @@ function App() {
     link.rel = 'stylesheet';
     document.head.appendChild(link);
     
+    useEffect(() => {
+  window.scrollTo(0, 0);
+}, []);
+    
     return () => {
       document.head.removeChild(link);
     };
